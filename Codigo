@@ -13,7 +13,12 @@
     <main>
         <section id="text-section">
             <h2>Texto Original</h2>
-            <p id="original-text">Aquí va el texto con errores...</p>
+            <p id="original-text">"El día de ayer, yo y mis amigos fuimos al parque para jugar futbol.
+Cuando llegamos, nos dimos cuenta que no habiamos traído el balón. 
+Uno de nosotros sugerió que jugáramos al escondite en vez de futbol, pero yo preferia jugar futbol. 
+Finalmente, decidimos jugar a escondite, y fue muy divertido, todos los jugadores se escondieron en los lugares mas inesperados. 
+A pesar de que el juego fue muy emocionante, nos olvidamos de tomar agua y todos terminamos sedientos. 
+Cuando volvimos a casa, mi mamá nos preguntó como nos había ido, y le contamos sobre nuestra experiencia."</p>
         </section>
         <section id="edit-section">
             <h2>Realiza tus Ediciones</h2>
