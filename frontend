@@ -1,0 +1,14 @@
+document.getElementById('submit-edit').addEventListener('click', function() {
+    const userEdit = document.getElementById('user-edit').value;
+    fetch('/submit-edit', {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json'
+        },
+        body: JSON.stringify({ edit: userEdit })
+    })
+    .then(response => response.json())
+    .then(data => {
+        document.getElementById('feedback').innerText = data.feedback;
+    });
+});
